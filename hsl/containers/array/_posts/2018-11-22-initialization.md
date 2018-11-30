@@ -32,7 +32,7 @@ private:
 }
 ```
 
-One quick thing we need to settle before moving on: [`size_t`][StdSizeT] is a C Standard Library type, meaning we need to redefine it. There are several headers which define `size_t`, but the one that's relevant right now is [`cstddef`][CStdDef] which contains only `size_t`, `ptrdiff_t` (which we'll need later) and a few other types, all of which are returned by built-in expressions. We'll need to create real definitions for them eventually, but for now, let's just import `size_t` into the `hsl` namespace:
+Two quick things we need to settle before moving on: First, [`size_t`][StdSizeT] is a C Standard Library type, meaning we need to redefine it. There are several headers which define `size_t`, but the one that's relevant right now is [`cstddef`][CStdDef] which contains only `size_t`, `ptrdiff_t` (which we'll need later) and a few other types, all of which are returned by built-in expressions. We'll need to create real definitions for them eventually, but for now, let's just import `size_t` into the `hsl` namespace:
 
 In `cstddef.hpp`
 
@@ -56,6 +56,21 @@ In `array.hpp`
 
 Contrary to popular belief, there is no `size_t` defined in the global namespace. Most implementations define it there, anyway, but it isn't standard.
 
+Second, the standard defines several [member types][StdArray] in `array`, and most of the rest of the class is defined in terms of these. We'll define these types as we need them, and then fill in whatever we don't use, at the end. For the moment we only need one -- `value_type`. With it, `array` now looks like this:
+
+In `array.hpp`:
+
+```cpp
+template<typename T, size_t N>
+class array
+{
+private:
+    using value_type = T;
+
+    value_type arr[N];
+};
+```
+
 Now that we have the skeleton of our `array` implementation, we can consider [constructors and destructors][StdArray]. There aren't any. Or rather, they're implicitly defined. We can construct an `array` in four ways:
 
 ```cpp
@@ -74,9 +89,10 @@ template<typename T, size_t N>
 class array
 {
 public:
+    /...
     // Must be public for aggregate initialization to work.
     // Don't access directly!
-    T arr[N];
+    value_type arr[N];
 };
 ```
 
@@ -153,7 +169,7 @@ In `array.hpp`:
 // ...
 ```
 
-That's it: we should now be able to initialize an `array` in all four ways mentioned above, and the compiler should be able to deduce the template arguments we intended, even when we don't provide any. In the next post, we'll define the member types.
+That's it: we should now be able to initialize an `array` in all four ways mentioned above, and the compiler should be able to deduce the template arguments we intended, even when we don't provide any. In the next post, we'll discuss how to access the elements of an `array`.
 
 [IntroPost]: /hsl/2018/11/16/introduction.html
 [GitHubRepo]: https://github.com/bobcarterirl/homebrew-stl

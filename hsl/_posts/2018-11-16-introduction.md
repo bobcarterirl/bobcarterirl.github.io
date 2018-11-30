@@ -34,6 +34,7 @@ You can access the source code for everything, and see my progress on [GitHub][G
 ### Module 1 -- Containers
 1. Array
     1. [Initialization][ArrayInitialization]
+    2. [Element access][ArrayElementAccess]
 
 [ShipOfTheseus]: https://en.wikipedia.org/wiki/Ship_of_Theseus
 [ANSIWebStore]: https://webstore.ansi.org/Standards/INCITS/INCITSISOIEC1488220172018
