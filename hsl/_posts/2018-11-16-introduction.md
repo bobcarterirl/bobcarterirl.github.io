@@ -42,3 +42,4 @@ You can access the source code for everything, and see my progress on [GitHub][G
 [CPlusPlus]: http://www.cplusplus.com/
 [GitHubRepo]: https://github.com/bobcarterirl/homebrew-stl
 [ArrayInitialization]: /hsl/containers/array/2018/11/22/initialization.html
+[ArrayElementAccess]: /hsl/containers/array/2018/11/30/element-access.html
