@@ -40,6 +40,6 @@ You can access the source code for everything, and see my progress on [GitHub][G
 [ANSIWebStore]: https://webstore.ansi.org/Standards/INCITS/INCITSISOIEC1488220172018
 [CPPReference]: https://en.cppreference.com
 [CPlusPlus]: http://www.cplusplus.com/
-[GitHubRepo]: https://github.com/bobcarterirl/homebrew-stl
+[GitHubRepo]: https://github.com/bobcarterirl/homebrew-standard-library
 [ArrayInitialization]: /hsl/containers/array/2018/11/22/initialization.html
 [ArrayElementAccess]: /hsl/containers/array/2018/11/30/element-access.html

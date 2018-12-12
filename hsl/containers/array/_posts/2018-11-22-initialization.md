@@ -172,7 +172,7 @@ In `array.hpp`:
 That's it: we should now be able to initialize an `array` in all four ways mentioned above, and the compiler should be able to deduce the template arguments we intended, even when we don't provide any. In the next post, we'll discuss how to access the elements of an `array`.
 
 [IntroPost]: /hsl/2018/11/16/introduction.html
-[GitHubRepo]: https://github.com/bobcarterirl/homebrew-stl
+[GitHubRepo]: https://github.com/bobcarterirl/homebrew-standard-library
 [StdArray]: https://en.cppreference.com/w/cpp/container/array
 [CStyleArray]: https://en.cppreference.com/w/cpp/language/array
 [ClassTemplate]: https://en.cppreference.com/w/cpp/language/class_template

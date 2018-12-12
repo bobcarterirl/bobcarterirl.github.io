@@ -3,7 +3,7 @@ layout: post
 title: HSL 1.1.2 – Array Element Access
 ---
 
-Welcome to Homebrew Standard Library.  In this series, we reimplement the C++ Standard Library piece-by-piece, to understand it better. You can find the introduction and table of contents [here][IntroPost]. The full source code for this project is available on [GitHub][GitHubRepo]. 
+Welcome to Homebrew Standard Library.  In this series, we reimplement the C++ Standard Library piece-by-piece, to understand it better. You can find the introduction and table of contents [here][IntroPost]. The full source code for this project is available on [GitHub][GitHubRepo].
 
 At this point, we can instantiate our `array` class, but it isn't very useful, yet, since we can't access its elements. (I mean, we can, but we're not supposed to.) In this post, we'll fix that.
 
@@ -179,7 +179,7 @@ constexpr const T&& get(array<T, N>&& arr) noexcept
 In the next post, we'll implement capacity checking.
 
 [IntroPost]: /hsl/2018/11/16/introduction.html
-[GitHubRepo]: https://github.com/bobcarterirl/homebrew-stl
+[GitHubRepo]: https://github.com/bobcarterirl/homebrew-standard-library
 [StdVector]: https://en.cppreference.com/w/cpp/container/vector
 [StdTuple]: https://en.cppreference.com/w/cpp/utility/tuple
 [StdArraySubscriptOperator]: https://en.cppreference.com/w/cpp/container/array/operator_at
