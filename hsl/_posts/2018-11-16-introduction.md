@@ -35,6 +35,7 @@ You can access the source code for everything, and see my progress on [GitHub][G
 1. Array
     1. [Initialization][ArrayInitialization]
     2. [Element access][ArrayElementAccess]
+    3. [Capacity][ArrayCapacity]
 
 [ShipOfTheseus]: https://en.wikipedia.org/wiki/Ship_of_Theseus
 [ANSIWebStore]: https://webstore.ansi.org/Standards/INCITS/INCITSISOIEC1488220172018
@@ -43,3 +44,4 @@ You can access the source code for everything, and see my progress on [GitHub][G
 [GitHubRepo]: https://github.com/bobcarterirl/homebrew-standard-library
 [ArrayInitialization]: /hsl/containers/array/2018/11/22/initialization.html
 [ArrayElementAccess]: /hsl/containers/array/2018/11/30/element-access.html
+[ArrayCapacity]: /hsl/containers/array/2018/12/12/capacity.html
