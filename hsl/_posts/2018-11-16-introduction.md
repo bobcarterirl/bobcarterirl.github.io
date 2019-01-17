@@ -36,6 +36,10 @@ You can access the source code for everything, and see my progress on [GitHub][G
     1. [Initialization][ArrayInitialization]
     2. [Element access][ArrayElementAccess]
     3. [Capacity][ArrayCapacity]
+    4. [Iterators][ArrayIterators]
+    5. [Operators][ArrayOperators]
+    6. Comparisons
+    7. Zero size
 
 [ShipOfTheseus]: https://en.wikipedia.org/wiki/Ship_of_Theseus
 [ANSIWebStore]: https://webstore.ansi.org/Standards/INCITS/INCITSISOIEC1488220172018
@@ -45,3 +49,5 @@ You can access the source code for everything, and see my progress on [GitHub][G
 [ArrayInitialization]: /hsl/containers/array/2018/11/22/initialization.html
 [ArrayElementAccess]: /hsl/containers/array/2018/11/30/element-access.html
 [ArrayCapacity]: /hsl/containers/array/2018/12/12/capacity.html
+[ArrayIterators]: /hsl/containers/array/2019/01/11/iterators.html
+[ArrayOperators]: /hsl/containers/array/2019/01/18/operators.html
