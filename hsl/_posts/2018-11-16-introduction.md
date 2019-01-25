@@ -38,7 +38,7 @@ You can access the source code for everything, and see my progress on [GitHub][G
     3. [Capacity][ArrayCapacity]
     4. [Iterators][ArrayIterators]
     5. [Operators][ArrayOperators]
-    6. Comparisons
+    6. [Comparisons][ArrayComparisons]
     7. Zero size
 
 [ShipOfTheseus]: https://en.wikipedia.org/wiki/Ship_of_Theseus
@@ -51,3 +51,4 @@ You can access the source code for everything, and see my progress on [GitHub][G
 [ArrayCapacity]: /hsl/containers/array/2018/12/12/capacity.html
 [ArrayIterators]: /hsl/containers/array/2019/01/11/iterators.html
 [ArrayOperators]: /hsl/containers/array/2019/01/18/operators.html
+[ArrayComparisons]: /hsl/containers/array/2019/01/25/comparisons.html
