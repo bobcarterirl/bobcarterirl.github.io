@@ -39,7 +39,7 @@ You can access the source code for everything, and see my progress on [GitHub][G
     4. [Iterators][ArrayIterators]
     5. [Operators][ArrayOperators]
     6. [Comparisons][ArrayComparisons]
-    7. Zero size
+    7. [Zero size][ArrayZeroSize]
 
 [ShipOfTheseus]: https://en.wikipedia.org/wiki/Ship_of_Theseus
 [ANSIWebStore]: https://webstore.ansi.org/Standards/INCITS/INCITSISOIEC1488220172018
@@ -52,3 +52,4 @@ You can access the source code for everything, and see my progress on [GitHub][G
 [ArrayIterators]: /hsl/containers/array/2019/01/11/iterators.html
 [ArrayOperators]: /hsl/containers/array/2019/01/18/operators.html
 [ArrayComparisons]: /hsl/containers/array/2019/01/25/comparisons.html
+[ArrayZeroSize]: /hsl/containers/array/2019/02/01/zero-size.html
