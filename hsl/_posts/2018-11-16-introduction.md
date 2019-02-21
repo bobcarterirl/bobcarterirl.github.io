@@ -40,6 +40,16 @@ You can access the source code for everything, and see my progress on [GitHub][G
     5. [Operators][ArrayOperators]
     6. [Comparisons][ArrayComparisons]
     7. [Zero size][ArrayZeroSize]
+2. Vector
+    1. Skeleton
+    2. Getters
+    3. Element access
+    4. Iterators
+    5. Comparisons
+    6. Constructors
+    7. Assignment
+    8. Resize modifiers
+    9. Insert modifiers
 
 [ShipOfTheseus]: https://en.wikipedia.org/wiki/Ship_of_Theseus
 [ANSIWebStore]: https://webstore.ansi.org/Standards/INCITS/INCITSISOIEC1488220172018
