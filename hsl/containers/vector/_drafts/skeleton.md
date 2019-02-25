@@ -1,3 +1,8 @@
+---
+title: HSL 1.2.1 – Vector Skeleton
+---
+
+
 Now that our `array` implementation is complete, we can move on to the next
 container, [`vector`][std::vector]. In this post, we'll create the basic
 skeleton of our `vector` class, and then, in later posts, fill it in. That's
