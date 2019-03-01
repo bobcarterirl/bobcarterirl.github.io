@@ -41,7 +41,7 @@ You can access the source code for everything, and see my progress on [GitHub][G
     6. [Comparisons][ArrayComparisons]
     7. [Zero size][ArrayZeroSize]
 2. Vector
-    1. Skeleton
+    1. [Skeleton][VectorSkeleton]
     2. Getters
     3. Element access
     4. Iterators
@@ -56,6 +56,7 @@ You can access the source code for everything, and see my progress on [GitHub][G
 [CPPReference]: https://en.cppreference.com
 [CPlusPlus]: http://www.cplusplus.com/
 [GitHubRepo]: https://github.com/bobcarterirl/homebrew-standard-library
+
 [ArrayInitialization]: /hsl/containers/array/2018/11/22/initialization.html
 [ArrayElementAccess]: /hsl/containers/array/2018/11/30/element-access.html
 [ArrayCapacity]: /hsl/containers/array/2018/12/12/capacity.html
@@ -63,3 +64,5 @@ You can access the source code for everything, and see my progress on [GitHub][G
 [ArrayOperators]: /hsl/containers/array/2019/01/18/operators.html
 [ArrayComparisons]: /hsl/containers/array/2019/01/25/comparisons.html
 [ArrayZeroSize]: /hsl/containers/array/2019/02/01/zero-size.html
+
+[VectorSkeleton]: /hsl/containers/vector/2019/03/01/skeleton.html
