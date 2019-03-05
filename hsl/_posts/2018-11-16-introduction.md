@@ -42,7 +42,7 @@ You can access the source code for everything, and see my progress on [GitHub][G
     7. [Zero size][ArrayZeroSize]
 2. Vector
     1. [Skeleton][VectorSkeleton]
-    2. Getters
+    2. [Getters][VectorGetters]
     3. Element access
     4. Iterators
     5. Comparisons
@@ -66,3 +66,4 @@ You can access the source code for everything, and see my progress on [GitHub][G
 [ArrayZeroSize]: /hsl/containers/array/2019/02/01/zero-size.html
 
 [VectorSkeleton]: /hsl/containers/vector/2019/03/01/skeleton.html
+[VectorGetters]: /hsl/containers/vector/2019/03/08/getters.html
